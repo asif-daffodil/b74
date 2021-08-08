@@ -1,0 +1,51 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Palette+Mosaic&family=Style+Script&family=WindSong&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+
+@font-face {
+  font-family: dhaka;
+  src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
+}
+
+@font-face {
+  font-family: khulna;
+  src: url("../fonts/Palette_Mosaic/PaletteMosaic-Regular.ttf");
+}
+
+@font-face {
+  font-family: rongpur;
+  src: url("../fonts/Style_Script/StyleScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: dinajpur;
+  src: url("../fonts/WindSong/WindSong-Regular.ttf");
+}
+
+.pera1 {
+  font-family: dhaka;
+}
+.pera2 {
+  font-family: rongpur;
+}
+.pera3 {
+  font-family: dinajpur;
+  font-size: 24px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  word-spacing: 7px;
+  text-align: justify;
+  text-shadow: 1px 1px 1px #ff0000;
+}
+.pera4 {
+  font-family: khulna;
+}
