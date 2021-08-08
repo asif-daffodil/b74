@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 800px;
+  height: 400px;
+  background: gray;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 25% calc(50% - 10px) 25%;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.main > div {
+  background: #d4d4d4;
+}
+
+.pain {
+  width: 800px;
+  height: 400px;
+  margin: 20px auto;
+  display: grid;
+
+  grid-template-areas:
+    "d1 d1 d3 d4"
+    "d5 d8 d8 d7"
+    "d2 d2 d2 d7"
+    "d6 d6 d6 d7";
+}
+.d1 {
+  grid-area: d1;
+  background: brown;
+}
+.d2 {
+  grid-area: d2;
+  background: burlywood;
+}
+.d3 {
+  grid-area: d3;
+  background: cadetblue;
+}
+.d4 {
+  grid-area: d4;
+  background: chartreuse;
+}
+.d5 {
+  grid-area: d5;
+  background: chocolate;
+}
+.d6 {
+  grid-area: d6;
+  background: coral;
+}
+.d7 {
+  grid-area: d7;
+  background: cornflowerblue;
+}
+.d8 {
+  grid-area: d8;
+  background: crimson;
+}
