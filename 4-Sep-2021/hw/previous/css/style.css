@@ -1,0 +1,140 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.textAnimation{
+    width: 100%;
+    height: 100px;
+    background: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.textAnimation>h2{
+    font-size: 20px;
+    line-height: 100px;
+    color: rgb(0, 0, 0);
+    animation: tex 5s infinite linear;
+}
+@keyframes tex{
+    0%{font-size: 20px; color: rgb(0, 0, 0);}
+    50%{font-size: 70px; color: red;}
+    100%{font-size: 20px;color: rgb(0, 128, 57);}
+}
+.colorChange{
+    width: 100%;
+    height: 100px;
+    background: cyan;
+    animation: color 6s infinite linear;
+}
+
+@keyframes color{
+    0%{background: cyan;}
+    20%{background: darkblue;}
+    40%{background: darkgoldenrod;}
+    60%{background: red;}
+    80%{background: rgb(0, 253, 0);}
+    100%{background: cyan);}
+}
+.imageAnimation{
+    width: 100%;
+    height: 210px;
+    background: darkgrey;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.imgslide{
+    display: inline;
+    position: absolute;
+    margin-left: 0%;
+    animation: img 8s infinite linear;
+}
+@keyframes img{
+    0%{margin-left: 0%;}
+    50%{margin-left: 29%;}
+    100%{margin-left: 0%;}
+    }
+
+.bulletd{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    position: relative;
+}
+.fir{
+    width: 480px;
+    height: 316px;
+    background:url("../images/fire.png") no-repeat right center;
+    position: absolute;
+    right: 0%;
+}
+.bullet{
+    width: 100px;
+    height: 40px;
+    background:url("../images/bullet.png") no-repeat right center;
+    position: absolute;
+    top: 27%;
+    right: 26%;
+    animation: bullet 2s infinite linear;
+}
+@keyframes bullet{
+    0%{right: 26%;}
+    100%{right: 100%;}
+}
+.carMoving{
+    width: 100%;
+    height: 200px;
+    background: url(../images/road.png) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+.while{
+    width:400px ;
+    height:180px;
+    position: relative;
+    margin-left: 100%;
+    animation: crm 5s infinite linear;
+}
+@keyframes crm{
+    0%{margin-left: 100%;}
+    100%{margin-left: -21%;}
+}
+.carMoving img{
+    width: 400px;
+    height: 132px;
+    position: absolute;
+    right: 0%;
+    top:25px;
+    animation: crm 5s infinite linear;
+}
+
+img.while1{
+    width: 65px;
+    height: 65px;
+    margin-right: 50px;
+    margin-top: 65.5px;
+    position: absolute;
+    animation: whil 1s infinite linear;
+}
+@keyframes whil{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-360deg);}
+}
+
+img.while2{
+    width: 65px;
+    height: 65px;
+    margin-right: 300px;
+    margin-top: 67px;
+    position: absolute;
+    animation: whill 1s infinite linear;
+}
+@keyframes whill{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-360deg);}
+}

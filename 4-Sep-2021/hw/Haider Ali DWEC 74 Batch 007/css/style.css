@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d2e41;
+}
+
+@font-face {
+    font-family: Vani;
+    src: url(../fonts/Vani.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Trebuchet MS;
+    src: url(../fonts/Trebuchet.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu.ttf);
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(../fonts/Arial.ttf);
+}
+
+.main {
+    width: 622px;
+    margin: 0 auto;
+    border-right: 1px solid #515e6c;
+    border-left: 1px solid #515e6c;
+    background: white;
+}
+
+.headr {
+    width: 100%;
+    height: 33px;
+    background: #283b46;
+    display: flex;
+}
+
+.htb {
+    width: 582px;
+    margin: 0 auto;
+    align-items: center;
+    background: #283b46;
+}
+
+.ftxt {
+    width: 360px;
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb( 133, 172, 179);
+    line-height: 1.636;
+    text-align: left;
+    background: #283b46;
+}
+
+.ftxt a {
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb( 133, 172, 179);
+    line-height: 1.636;
+    background: #283b46;
+}
+
+.stxt,
+.stxt a {
+    width: 100px;
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb( 133, 172, 179);
+    line-height: 1.636;
+    text-align: right;
+    background: #283b46;
+    text-decoration: none;
+}
+
+.ttxt,
+.ttxt a {
+    width: 122px;
+    font-size: 11px;
+    font-family: Vani;
+    color: rgb( 136, 136, 136);
+    line-height: 0;
+    text-align: right;
+    background: #283b46;
+    text-decoration: none;
+}
+
+.dlin {
+    background-image: url("1px line .png");
+    opacity: 1;
+    position: absolute;
+    top: 33.5px;
+    width: 620px;
+    height: 1px;
+    z-index: 155;
+}
+
+.dlin2 {
+    background-image: url("1px line.png");
+    opacity: 0.2;
+    position: absolute;
+    top: 34px;
+    width: 620px;
+    height: 1px;
+    z-index: 154;
+}
+
+.sdcn {
+    width: 100%;
+    height: 80px;
+    background: #394b58;
+    display: flex;
+    position: relative;
+}
+
+.log {
+    position: absolute;
+    left: 20px;
+    top: 30%;
+    display: flex;
+    float: left;
+    background: #394b58;
+}
+
+.log>img {
+    margin-right: 10px;
+    background: #394b58;
+}
+
+.log>a {
+    align-items: center;
+    line-height: 30px;
+}
+
+.dat {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    background: #394b58;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 156, 165, 172);
+    line-height: 1.125;
+}
+
+.onen {
+    font-size: 19.27px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255);
+    text-shadow: 0px 1px 2px rgb( 0, 0, 0);
+    text-decoration: none;
+    background: #394b58;
+}
+
+.twoo {
+    font-size: 19.27px;
+    font-family: "Roboto";
+    color: rgb( 132, 187, 225);
+    text-shadow: 0px 1px 2px rgb( 0, 0, 0);
+    text-decoration: none;
+    background: #394b58;
+}
+
+.libg {
+    background-image: url(../images/feather\ up\ line.png), url(../images/feather\ up\ line\ 2.png);
+    width: 100%;
+    height: 2px;
+    opacity: 0.2;
+    background-position: absolute, absolute;
+    z-index: 2;
+}
+
+.featherarea {
+    background-image: url(../images/feather\ bg\ 1.png), url(../images/feather\ bg\ 2.png);
+    width: 100%;
+    height: 304px;
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.libg2 {
+    background: url(../images/feather\ down\ line.png);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 244px;
+    opacity: 0.8;
+}
+
+.featherone {
+    display: flex;
+    position: relative;
+}
+
+.ftex {
+    width: 235px;
+    height: 67px;
+    font-size: 26px;
+    font-family: "Trebuchet MS";
+    color: rgb( 40, 108, 158);
+    font-weight: bold;
+    line-height: 1.099;
+    text-align: left;
+    position: absolute;
+    top: 47px;
+    left: 30px;
+    background: none;
+}
+
+.ftex2 {
+    width: 247px;
+    height: 50px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 102, 116, 125);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    top: 124px;
+    left: 30px;
+    background: none;
+}
+
+.but {
+    font-size: 13px;
+    font-family: "Ubuntu";
+    text-shadow: 0px 1px 2px rgb( 0, 0, 0);
+    color: rgb( 255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.385;
+    position: absolute;
+    top: 215px;
+    left: 30px;
+    background: #364653;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    z-index: 3;
+    display: block;
+}
+
+.feathertwo {
+    background: url(../images/com_feather.png);
+    position: absolute;
+    width: 299px;
+    height: 271px;
+    margin: 28px 0 0 300px;
+    z-index: 3;
+}
+
+.titl {
+    background: rgb( 244, 244, 244);
+    width: 100%;
+    height: 38px;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+    margin-top: 0;
+}
+
+.texx {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 57, 75, 88);
+    font-weight: bold;
+    line-height: 1.25;
+    background: none;
+    margin-left: 20px;
+    line-height: 38px;
+}
+
+.procon {
+    width: 100%;
+    height: 440px;
+    background: #ffffff;
+}
+
+.proi {
+    width: 180px;
+    height: 177px;
+    background: none;
+    float: left;
+    border: 1px solid #e2e0e0;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.proi>img {
+    width: 168px;
+    height: 124px;
+    border: none;
+}
+
+.faha {
+    width: 370px;
+    height: 170px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.proi>div {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+}
+
+.faha>h3 {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 51, 51, 51);
+    font-weight: bold;
+    line-height: 0.875;
+    padding-bottom: 10px;
+}
+
+.faha>p {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+.faha>li {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.faha>li:last-child {
+    padding-bottom: 10px;
+}
+
+.faha>a {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 52, 121, 171);
+    line-height: 1.25;
+    text-decoration: none;
+}
+
+.proi2 {
+    width: 180px;
+    height: 177px;
+    background: none;
+    float: left;
+    border: 1px solid #e2e0e0;
+    padding: 5px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+.proi2>img {
+    width: 168px;
+    height: 124px;
+    border: none;
+}
+
+.faha2 {
+    width: 370px;
+    height: 170px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.proi2>div {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+}
+
+.faha2>h3 {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 51, 51, 51);
+    font-weight: bold;
+    line-height: 0.875;
+    padding-bottom: 10px;
+}
+
+.faha2>p {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+.faha2>li {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.faha2>li:last-child {
+    padding-bottom: 10px;
+}
+
+.faha2>a {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 52, 121, 171);
+    line-height: 1.25;
+    text-decoration: none;
+}
+
+.lapro {
+    width: 100%;
+    height: 38px;
+    background: #f4f4f4;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+    ;
+}
+
+.hlin {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 57, 75, 88);
+    font-weight: bold;
+    line-height: 38px;
+    margin-left: 20px;
+}
+
+.prodlist {
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+
+.procontainer {
+    display: flex;
+    width: 582px;
+    height: 212px;
+    border: 1px solid #e2e0e0;
+    margin: 30px auto 10px auto;
+}
+
+.pro1 {
+    padding: 30px 10px 10px 10px;
+    margin: auto;
+}
+
+.pro1>img:first-child {
+    width: 48px;
+    height: 65px;
+    margin-left: 20px;
+}
+
+.pro1>h4 {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    font-weight: bold;
+    text-align: left;
+}
+
+.pro1>h5 {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.onn {
+    position: absolute;
+    margin-top: -26px;
+    padding-left: 45px;
+}
+
+.onn2 {
+    position: absolute;
+    padding-left: 45px;
+    margin-top: -26px;
+}
+
+.onn3 {
+    position: absolute;
+    padding-left: 45px;
+    margin-top: -26px;
+}
+
+.buttnn {
+    margin-left: 20px;
+}
+
+.buttnn>a {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 52, 121, 171);
+    line-height: 1.25;
+}
+
+.prorev {
+    width: 100%;
+    height: 40px;
+    background: #f4f4f4;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.protex {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 57, 75, 88);
+    font-weight: bold;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.prorec {
+    width: 100%;
+    height: 198px;
+    background: #ffffff;
+    display: flex;
+}
+
+.prorim {
+    width: 180px;
+    height: 135px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.prorim>img {
+    width: 168px;
+    height: 125px;
+    border: 1px solid #e2e0e0;
+    padding: 7px;
+}
+
+.proretxt {
+    width: 375px;
+    height: 130px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.proretxt>h3 {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 51, 51, 51);
+    font-weight: bold;
+    line-height: 0.875;
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.proretxt>p {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 128, 128, 128);
+    line-height: 1.5;
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.proretxt>a {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb( 52, 121, 171);
+    line-height: 1.25;
+    text-align: left;
+    text-decoration: none;
+}
+
+.ourcli {
+    width: 100%;
+    height: 40px;
+    background: #f4f4f4;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.ourclitxt {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb( 57, 75, 88);
+    font-weight: bold;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.clintlis {
+    width: 100%;
+    height: 96px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.clintlis>img {
+    margin-left: 40px;
+}
+
+.clintlis>img:nth-child(1) {
+    width: 104px;
+    height: 25px;
+}
+
+.clintlis>img:nth-child(2) {
+    width: 49px;
+    height: 49px;
+}
+
+.clintlis>img:nth-child(3) {
+    width: 69px;
+    height: 50px;
+}
+
+.clintlis>img:nth-child(4) {
+    width: 48px;
+    height: 54px;
+}
+
+.clintlis>img:nth-child(5) {
+    width: 103px;
+    height: 33px;
+}
+
+.footer {
+    width: 100%;
+    height: 122px;
+    background: #394b58;
+    border-top: 2px solid #7d8c98;
+    display: flex;
+    align-items: center;
+}
+
+.footleft {
+    margin-left: 20px;
+    color: rgb( 130, 141, 150);
+}
+
+.footleft>img {
+    width: 167px;
+    height: 29px;
+}
+
+.footleft>p,
+a {
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb( 130, 141, 150);
+    line-height: 1.636;
+    text-align: left;
+}
+
+.foorigt {
+    width: 315;
+    height: 77px;
+    margin-left: 95px;
+}
+
+.imse>a>img {
+    margin-left: 15px;
+}
+
+.foorigt>p {
+    font-size: 11px;
+    font-family: "Arial";
+    color: rgb( 130, 141, 150);
+    line-height: 1.636;
+    text-align: right;
+}
+
+.imse {
+    margin-left: 160px;
+}

@@ -1,0 +1,54 @@
+web design - front-end web development
+
+web site
+web page
+hypertext document
+browser - google chrome - mozila firefox
+
+http- hypertext transfer protocol
+https - hypertext transfer protocol secured
+
+domain name
+hosting server
+
+server
+
+internet
+network
+
+godaddy
+hostgator
+namecheap
+
+ui/ux
+
+1st Semester
+HTML
+CSS -> Sass
+Bootstrap - 5
+JavaScric
+Jquery
+ReactJS/NodeJS
+PSD to HTML
+PSD to Bootstrap
+
+2nd Semister
+PHP
+OOP
+MySQLi
+Blog
+Laravel
+CMS -> WordPress
+
+IDE
+phpstrome - it's not free
+
+Text Editor
+vscode
+Brackets
+Notepad++
+Sublimetext
+adobe dreamweaver
+
+cpanel
+
