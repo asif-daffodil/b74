@@ -1,0 +1,25 @@
+Extenssion
+Auto Rename Tag
+Duplicate action
+HTML End Tag Labels
+IntelliSense for CSS class names in HTML
+Live Sass Compiler
+Live Server
+Prettier Formatter
+vscode-icons
+
+
+Short-cut
+ctrl + a
+ctrl + s
+ctrl + c
+ctrl + x
+ctrl + v
+ctrl + z
+ctrl + y
+altr + shift + down-arrow
+altr + Up-arrow
+ctrl + l o
+altr + f4
+alter + tab
+altr + z
